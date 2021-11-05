@@ -1,6 +1,6 @@
 ﻿
 
-namespace Xadrez_Console.Tabuleiro
+namespace Xadrez_Console.tabuleiro
 {
     class Posicao
     {
@@ -14,12 +14,9 @@ namespace Xadrez_Console.Tabuleiro
 
         public Posicao(int linha, int coluna)
         {
-            this.Linha = linha;
-            this.Coluna = coluna;
+            Linha = linha;
+            Coluna = coluna;
         }
-        public override string ToString()
-        {
-            return Linha + ", " + Coluna;
-        }
+        
     }
 }
