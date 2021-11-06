@@ -1,4 +1,4 @@
-﻿using tabuleiro;
+﻿using Tabuleiro;
 using System;
 
 namespace Xadrez_Console
@@ -10,7 +10,7 @@ namespace Xadrez_Console
 
         }
 
-        public static void ImprimirTabuleiro(Tabuleiro tab)
+        public static void ImprimirTabuleiro(TabuleiroClasse tab)
         {
             for (int i = 0; i < tab.Linhas; i++)
             {

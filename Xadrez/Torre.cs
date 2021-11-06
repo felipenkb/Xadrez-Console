@@ -1,11 +1,11 @@
-﻿using tabuleiro;
-using tabuleiro.Enums;
+﻿using Tabuleiro;
+using Tabuleiro.Enums;
 
 namespace Xadrez
 {
     class Torre : Peca
     {
-        public Torre(Tabuleiro tab, Cor cor) : base(tab, cor)
+        public Torre(TabuleiroClasse tab, Cor cor) : base(tab, cor)
         {
 
         }

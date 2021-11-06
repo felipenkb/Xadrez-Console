@@ -1,11 +1,11 @@
-﻿using tabuleiro.Enums;
+﻿using Tabuleiro.Enums;
 
-namespace tabuleiro
+namespace Tabuleiro
 {
     class Peca
     {
         public Posicao Posicao { get; set; }
-        public Tabuleiro Tabuleiro { get; protected set; }
+        public TabuleiroClasse Tabuleiro { get; protected set; }
         public Cor Cor { get; protected set; }
         public int QteMovimentos { get; protected set; }
 
@@ -14,7 +14,7 @@ namespace tabuleiro
 
         }
 
-        public Peca(Tabuleiro tabuleiro, Cor cor)
+        public Peca(TabuleiroClasse tabuleiro, Cor cor)
         {
             this.Posicao = null;
             this.Tabuleiro = tabuleiro;

@@ -1,11 +1,11 @@
-﻿using tabuleiro;
-using tabuleiro.Enums;
+﻿using Tabuleiro;
+using Tabuleiro.Enums;
 
 namespace Xadrez
 {
     class Rei : Peca
     {
-        public Rei(Tabuleiro tab, Cor cor) : base(tab, cor)
+        public Rei(TabuleiroClasse tab, Cor cor) : base(tab, cor)
         {
 
         }
