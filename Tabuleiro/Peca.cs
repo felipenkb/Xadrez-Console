@@ -16,10 +16,10 @@ namespace Tabuleiro
 
         public Peca(TabuleiroClasse tabuleiro, Cor cor)
         {
-            this.Posicao = null;
-            this.Tabuleiro = tabuleiro;
-            this.Cor = cor;
-            this.QteMovimentos = 0;
+            Posicao = null;
+            Tabuleiro = tabuleiro;
+            Cor = cor;
+            QteMovimentos = 0;
         }
     }
 }
