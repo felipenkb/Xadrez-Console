@@ -1,6 +1,7 @@
 ﻿using System;
 
 
+
 namespace Tabuleiro
 {
     class TabuleiroClasse
