@@ -1,25 +1,25 @@
-﻿using Xadrez_Console.tabuleiro.Enums;
+﻿using tabuleiro.Enums;
 
-namespace Xadrez_Console.tabuleiro
+namespace tabuleiro
 {
     class Peca
     {
         public Posicao Posicao { get; set; }
+        public Tabuleiro Tabuleiro { get; protected set; }
         public Cor Cor { get; protected set; }
         public int QteMovimentos { get; protected set; }
-        public Tabuleiro Tabuleiro { get; protected set; }
 
         public Peca()
         {
 
         }
 
-        public Peca(Posicao posicao, Cor cor, int qteMovimentos, Tabuleiro tabuleiro)
+        public Peca(Tabuleiro tabuleiro, Cor cor)
         {
-            Posicao = posicao;
-            Cor = cor;
-            QteMovimentos = qteMovimentos;
-            Tabuleiro = tabuleiro;
+            this.Posicao = null;
+            this.Tabuleiro = tabuleiro;
+            this.Cor = cor;
+            this.QteMovimentos = 0;
         }
     }
 }
