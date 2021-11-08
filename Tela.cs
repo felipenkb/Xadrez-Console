@@ -20,13 +20,22 @@ namespace Xadrez_Console
             ImprimirPecasCap(partida);
             Console.WriteLine();
             Console.WriteLine("Turno: " + partida.Turno);
-            Console.WriteLine();
-            Console.WriteLine("Aguardando Jogada: " + partida.JogadorAtual);
-            if (partida.Xeque)
+            if (!partida.Terminada)
             {
                 Console.WriteLine();
-                Console.WriteLine("XEQUE!");
+                Console.WriteLine("Aguardando Jogada: " + partida.JogadorAtual);
+                if (partida.Xeque)
+                {
+                    Console.WriteLine();
+                    Console.WriteLine("XEQUE!");
+                }
             }
+            else
+            {
+                Console.WriteLine("XEQUE-MATE!");
+                Console.WriteLine("Vencedor: " + partida.JogadorAtual);
+            }
+            
         }
 
         public static void ImprimirPecasCap(PartidaDeXadrez partida)
