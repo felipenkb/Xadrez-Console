@@ -13,7 +13,6 @@ namespace Tabuleiro
 
         public TabuleiroClasse()
         {
-
         }
 
         public TabuleiroClasse(int linhas, int colunas)
