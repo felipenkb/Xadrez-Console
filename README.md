@@ -1,3 +1,3 @@
 # Xadrez-Console
 
-Primeiro Projeto Back-end, lógicas bem complexas, mas o final foi satisfatorio! :D
+Primeiro Projeto Back-end... Lógicas bem complexas, mas o final foi satisfatorio! :D
